@@ -1,0 +1,83 @@
+header h1 span{
+    display: block;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 0;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #326F74;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin-left: 15vw;
+    min-width: 80px;
+}
+header .mimg{
+    display: none;    
+}
+header nav{
+    margin-right: 10vw;
+    height: 30px;
+    z-index: 999;
+    width: 40%;
+}
+header nav>.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header nav>.menu>li{
+    width: 24%;
+    line-height: 40px;
+    color: #fff;
+}
+header nav>.menu>li:nth-of-type(1){
+    margin-left: 0;
+}
+
+header nav ul li a{
+    font-family: 'Agatho_Light';
+    display: block;
+    width:100%;
+}
+header nav .menu>li>a{
+    font-size: 1.5rem;
+}
+header nav .submenu>li{
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 35px;
+}
+header nav .menu>li:nth-of-type(3)>.submenu{
+    opacity: 0;
+}
+header nav .submenu>.f>a{
+    font-size: 1.25rem;
+}
+header nav .submenu{
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+header nav>.menu>li>a:hover{
+    color: #fff;
+    opacity: 30%;
+}
+header nav .submenu>li>a:hover{
+    color: #000;
+}
+header nav .submenu{
+     display: none;
+}
+
+

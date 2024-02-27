@@ -1,0 +1,82 @@
+@import"./resect.css";
+@import url(./header.css);
+@import url(./footer.css);
+
+@font-face {
+    font-family:'Noto_Sans_KR';
+    src: url(../font/Noto_Sans_KR/);
+}
+@font-face {
+    font-family:'Agatho_Bold';
+    src: url(../font/agatho/Agatho_\ Bold.otf);
+}
+@font-face {
+    font-family:'Agatho_Light';
+    src: url(../font/agatho/Agatho_\ Light.otf);
+}
+@font-face {
+    font-family:'Agatho_Medium';
+    src: url(../font/agatho/Agatho_\ Medium.otf);
+}
+@font-face {
+    font-family:'Agatho_Regular';
+    src: url(../font/agatho/Agatho_Regular.otf);
+}
+
+main{
+    width: 100%;
+    overflow: hidden;
+}
+main .title{
+    width: 100%;
+    height: 205px;
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 100px;
+}
+main .title h2{
+    font-size: 7.5rem;
+    color: #326F74;
+    font-family:'Agatho_Bold';
+    width: 444px;
+    height: 127px;
+}
+main .title .p1{
+    width: 800px;
+    font-size: 2.2em;
+    font-family: 'Agatho_Medium';
+    margin-top: 10px;
+}
+main .title .p2{
+    font-size: 1.15rem;
+    width: 450px;
+    margin-top: 13px;
+}
+main .img figure{
+    width: 100%;
+    overflow: hidden;
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 50px;
+}
+main .textbox{
+    max-width: 1320px;
+    margin: auto;
+    width: 100%;
+    height: 280px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+main .textbox .left .p01{
+    width: 634px;
+    height: 100%;
+    line-height: 220%;
+    font-size: 1.1rem;
+}
+main .textbox .right .p02{
+    width: 636px;
+    height: 100%;
+    line-height: 190%;
+    font-size: 1.1rem;
+}
